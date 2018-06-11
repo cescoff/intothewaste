@@ -25,7 +25,7 @@ pipeline {
                     sh '''
                         pwd
                         cp *.html /var/www/intothewaste/
-                        cp -r img /var/www/intothewaste/img
+                        cp -r img /var/www/intothewaste/
                     '''
                     echo "Done copying html files"
                     echo "Deploying app server"
